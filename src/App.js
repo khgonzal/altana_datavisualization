@@ -1,13 +1,9 @@
-import React from "react"
-import {Button} from "antd"
+import React from 'react';
+import Search from './Search.js';
 import './App.css';
 
 function App() {
-  return (
-    <div>
-      <Button type="primary">Hi</Button>
-    </div>
-  );
+  return <Search />;
 }
 
 export default App;
